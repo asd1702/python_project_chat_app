@@ -1,0 +1,10 @@
+ services:
+  chat-server:
+    build: ./server
+    container_name: python-chat-server
+    ports:
+      - "12345:12345"
+    volumes:
+      - ./server/logs:/app/logs
+    stdin_open: true
+    tty: true

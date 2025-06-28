@@ -1,0 +1,12 @@
+{
+  "__comment" : "서버 관리 및 설정 파일",
+  "server": {
+    "host": "0.0.0.0",
+    "port": 12345,
+    "max_workers": 20
+  },
+  "logging": {
+    "log_directory": "logs",
+    "console_level": "NONE"
+  }
+}
