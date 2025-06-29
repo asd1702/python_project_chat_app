@@ -17,7 +17,7 @@ class AdminConsole:
     """관리자 콘솔 실행 루프"""
     def _console_loop(self):
         print("관리자 콘솔이 활성화되었습니다. 'quit' 또는 'exit'를 입력하여 서버를 종료할 수 있습니다.")
-        print("\n Docker 컨테이너에서 실행 시 'Ctrl + C'를 눌러 서버를 종료할 수 있습니다.")
+        print("Docker 컨테이너에서 실행 시 'Ctrl + C'를 눌러 서버를 종료할 수 있습니다.")
         while True:
             cmd = input(">> ").strip().lower()
             if cmd in ["quit", "exit", "shutdown"]:
